@@ -24,7 +24,7 @@ class Home extends React.Component {
                                 </a>
                             </div>
                         </Col>
-                        <Col className='image-col'>
+                        <Col className='hero-col'>
                             <Image src={ProfilePicture} roundedCircle />
                         </Col>
                     </Row>

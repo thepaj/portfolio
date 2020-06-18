@@ -28,24 +28,29 @@ body {
 
 .content {
     grid-area: content;
+    display: inline-block;
+    padding-bottom: 4rem;
 }
 
 .footer {
     grid-area: footer;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;   
     text-align: center;
-    margin-top: 70px;
 }
 
 .container {
+    position: relative;
+    min-height: 100vh;
     width: 100%;
-    height: 100vh;
     display: grid;
     grid-template-areas: 
     "navbar"
     "content"
     "footer";
-    grid-template-columns: 1fr;
-    grid-template-rows: 130px 800px 250px;
 }
 
 .content
@@ -56,7 +61,7 @@ body {
 
 /* Home */
 .hero {
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 h1 {
@@ -67,6 +72,10 @@ h1 {
 .hero-content {
     margin-top: 50px;
     font-family: 'Bowlby One SC', cursive;
+}
+
+.hero-col {
+    padding: 20px;
 }
 
 .main-btn {
@@ -183,6 +192,7 @@ h1 {
     border: #F8F8F8 solid 2px;
     background-color: #F8F8F8;
     color: #FF00FF;
+    text-decoration: none !important;
 } 
 
 /* Contact */
@@ -190,36 +200,75 @@ h1 {
 .contact-row {
     padding: 30px;
     margin-bottom: 20px;
-    border: rgba(218, 103, 230, 1) solid 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.icon-col {
-    justify-content: left;
-    max-width: 100px;
+.contact-col {
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    padding: 20px;
+    border: 4px solid #FF00FF;
+    margin: 20px;
 }
 
-.text-col {
-    max-width: 270px;
-    margin-top: 24px;
-    margin-left: 50px;
-}
-
-.icon:hover {
+.contact-col:hover {
     background: linear-gradient(to right,
     rgba(249, 107, 142, 1),
     rgba(218, 103, 230, 1),
     rgba(130, 125, 253, 1));
+    border: none;
+}
+
+.contact-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: transparent;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+contact-button:hover, contact-button:visited, contact-button:link, contact-button:active
+{
+    text-decoration: none;
+}
+
+.contact-col-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #FF00FF;
+    max-width: 300px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.contact-container {
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-decoration: none;
+    color: #FF00FF;
 }
 
 .contact-text {
     padding: 20px;
     font-weight: bold;
+    text-decoration: none;
 }
 
-.email {
-     color: #FF00FF;
-     font-weight: bold;
-}
 
 
 
