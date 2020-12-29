@@ -11,7 +11,10 @@ import Footer from './components/Footer';
 class App extends React.Component {
     render() {
         return (
-            <div className='container'>
+            <div className="container">
+                <div class="bg"></div>
+                <div class="bg bg2"></div>
+                <div class="bg bg3"></div>
                 <Navigation />
                 <div className='content'>
                     <Switch>

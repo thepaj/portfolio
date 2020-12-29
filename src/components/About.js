@@ -1,16 +1,34 @@
 import React from 'react';
+import Chart from './Chart';
+import Avatar from '../images/paj.jpg';
 
-class About extends React.Component {
+class About extends React.Component{
     render() {
-        return (
-            <div>
-                <h1>Let me</h1>
-
-                <h1>introduce</h1>
-                <h1>myself</h1>
-                <p>
-                    Aenean vitae libero non sem volutpat viverra. Etiam risus orci, pharetra at lobortis eu, ultricies condimentum orci. Nam turpis nulla, vestibulum nec enim nec, cursus cursus metus. Curabitur tincidunt suscipit nunc at bibendum. Curabitur vitae sollicitudin lorem. Cras mi velit, ullamcorper eget dolor quis, auctor vulputate dolor. Nullam tristique leo in gravida semper. Curabitur blandit tristique arcu, a cursus lectus euismod in. Nullam non tempus ante, et efficitur ante. Nam ut mauris varius, laoreet tortor in, fermentum nulla. Praesent consequat, quam eu tristique pharetra, leo ex suscipit purus, imperdiet vehicula augue risus quis magna. Morbi condimentum est at nisl finibus, ut ullamcorper nunc vulputate.
-                </p>
+        return(
+            <div className='about-page'>
+                <div className='about-title'>
+                    A little bit about me
+                </div>
+                <div className="about-container">
+                    <div className="about-column-container">
+                        <div className='about-column-content'>
+                            <div className='avatar-container'>
+                                <img src={Avatar} alt="avatar" className="avatar"/>
+                            </div>
+                            <div>
+                                <p className='about-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis semper nunc. Donec et dapibus massa. Vivamus vel posuere arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam rutrum nisl et sem vestibulum pharetra vel ac tortor. Sed cursus sapien eget nibh aliquet dictum. Integer pretium purus eros.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="about-column-container">
+                        <div className='about-column-content'>
+                            <h2 className='secondaty-title'>My skills</h2>
+                            <div className="chart-container">
+                                <Chart />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         )
     }
