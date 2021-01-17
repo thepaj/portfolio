@@ -7,7 +7,7 @@ class Home extends React.Component {
             <div className='home-page'>
                 <div className="main-title-container">
                     <div className='main-title'>
-                        Hello, I'm Pavla.
+                        Hello, I'm Paja.
                     </div>
                     <div className='main-desc'>
                         A passionate front-end developer

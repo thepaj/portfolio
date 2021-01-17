@@ -16,13 +16,17 @@ class About extends React.Component{
                                 <img src={Avatar} alt="avatar" className="avatar"/>
                             </div>
                             <div>
-                                <p className='about-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis semper nunc. Donec et dapibus massa. Vivamus vel posuere arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam rutrum nisl et sem vestibulum pharetra vel ac tortor. Sed cursus sapien eget nibh aliquet dictum. Integer pretium purus eros.</p>
+                                <p className='about-text'>
+                                    Hi, I am Paja and I'm a front-end developer based in Berlin. I first became interested in software engeneering at university where I was studying japanology and linguistics. 
+                                    Since them I have attented numerous courses and build my own projects. So far I mostly worked with ReactJS but I am also interested in React Native and NodeJS. 
+
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div className="about-column-container">
                         <div className='about-column-content'>
-                            <h2 className='secondaty-title'>My skills</h2>
+                            <div className='secondaty-title'>My skills</div>
                             <div className="chart-container">
                                 <Chart />
                             </div>

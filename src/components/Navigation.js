@@ -44,9 +44,8 @@ class Navigation extends React.Component {
         return (
             <div>
                 <div className={this.state.navbarClass}>
-                    <Link exact to='/' className='navbar-brand'>Pavla Jureckova</Link>
-
-                    <Link exact to='/' className='nav-link' onClick={this.onLinkClick}>Home</Link>
+                    <Link to='/' className='navbar-brand'>Paja Jureckova</Link>
+                    <Link to='/' className='nav-link' onClick={this.onLinkClick}>Home</Link>
                     <Link to='/about' className='nav-link' onClick={this.onLinkClick}>About</Link>
                     <Link to='/projects' className='nav-link' onClick={this.onLinkClick}>Projects</Link>
                     <Link to='/contact' className='nav-link' onClick={this.onLinkClick}>Contact</Link>

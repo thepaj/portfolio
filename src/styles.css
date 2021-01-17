@@ -230,6 +230,7 @@ dark-green: #1A2D2B */
 
 .icon:hover {
     transform: translateY(-10px);
+    cursor: pointer;
 }
   
 .icon:active {
@@ -292,10 +293,13 @@ dark-green: #1A2D2B */
 }
 
 .secondaty-title {
-    text-transform: uppercase;
     font-family: 'Vidaloka', serif;
     font-size: 35px;
     margin-bottom: 10px;
+}
+
+.about-text {
+    font-size: 18px;
 }
 
 .charts {

@@ -29,7 +29,7 @@ class Projects extends React.Component {
                     <a href="https://5fe2521f48606e00074ef85d--peaceful-montalcini-2888dd.netlify.app/#/" target="_blank" rel="noopener noreferrer">
                         <Project projectTitle='Would-You-Rather Game' projectDesc='React | Redux' image={wyrImage}/>
                     </a>
-                    <a href="https://the-bubble-game-b87a4.appspot.com/?fbclid=IwAR20VzNmOMB_XKJr3eagvlz-vsI3-SgodX72qoXYdM79FwuznWCoBqf_Jxc" target="_blank" rel="noopener noreferrer">
+                    <a href="https://awesome-heyrovsky-d116f9.netlify.app/#/" target="_blank" rel="noopener noreferrer">
                         <Project projectTitle='Portfolio Website' projectDesc='CSS | React' image={portfolioImage}/>
                     </a>
                 </div>
