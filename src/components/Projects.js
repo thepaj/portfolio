@@ -7,6 +7,7 @@ import todoImage from '../images/todo.png';
 import myReadsImage from '../images/myreads.png';
 import portfolioImage from '../images/portfolio.png';
 import wyrImage from '../images/wyr.png';
+import portretImage from '../images/portret.jpg';
 
 class Projects extends React.Component {
     render() {
@@ -31,6 +32,9 @@ class Projects extends React.Component {
                     </a>
                     <a href="https://awesome-heyrovsky-d116f9.netlify.app/#/" target="_blank" rel="noopener noreferrer">
                         <Project projectTitle='Portfolio Website' projectDesc='CSS | React' image={portfolioImage}/>
+                    </a>
+                    <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.pavlajureckova.nejkrasnejsiportret%26fbclid%3DIwAR0cPBB61uxhRszoY5buEccFhQWPx1wguRwE5vALRtJ0BBvCN9TfRkrgXFM&h=AT0c5wkKf_DYs-kyywPitJMeFjeZFWItlzYSkH4Jlgb-9IIJlDI-jyNi3TzolH8oGoPd-CYOq295Eb11QAa6THwJO-_ck4QznP32V9JgxElj20xcXOG4WedJ6n4" target="_blank" rel="noopener noreferrer">
+                        <Project projectTitle='Soundboard App' projectDesc='React Native' image={portretImage}/>
                     </a>
                 </div>
             </div>
