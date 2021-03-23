@@ -1,5 +1,4 @@
 import React from 'react';
-import Chart from './Chart';
 import Avatar from '../images/paj.jpg';
 
 class About extends React.Component{
@@ -10,7 +9,6 @@ class About extends React.Component{
                     A little bit about me
                 </div>
                 <div className="about-container">
-                    <div className="about-column-container">
                         <div className='about-column-content'>
                             <div className='avatar-container'>
                                 <img src={Avatar} alt="avatar" className="avatar"/>
@@ -23,15 +21,6 @@ class About extends React.Component{
                                 </p>
                             </div>
                         </div>
-                    </div>
-                    <div className="about-column-container">
-                        <div className='about-column-content'>
-                            <div className='secondaty-title'>My skills</div>
-                            <div className="chart-container">
-                                <Chart />
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         )

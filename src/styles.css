@@ -289,7 +289,7 @@ dark-green: #1A2D2B */
 .avatar {
     border-radius: 100%;
     width: 300px;
-    margin: 20px;
+    margin-bottom: 20px;
 }
 
 .secondaty-title {
@@ -300,6 +300,7 @@ dark-green: #1A2D2B */
 
 .about-text {
     font-size: 18px;
+    font-weight: bold;
 }
 
 .charts {
@@ -323,7 +324,7 @@ dark-green: #1A2D2B */
     align-items: center;
     flex-wrap: wrap;
     max-width: 1000px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .img-wrap {
