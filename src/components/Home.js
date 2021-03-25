@@ -14,7 +14,7 @@ class Home extends React.Component {
                     </div>
                 </div>
                 <div className='btn-container'>
-                    <a href="https://github.com/thepaj/resume/blob/master/resume_jureckova.pdf" target="_blank" rel="noopener noreferrer" className='btn'>Get my CV</a>
+                    <a href="https://github.com/thepaj/resume/blob/master/Paja's%20Resume.pdf" target="_blank" rel="noopener noreferrer" className='btn'>Get my CV</a>
                     <Link to="/projects" className='btn'>My projects</Link>
                 </div>
             </div>
