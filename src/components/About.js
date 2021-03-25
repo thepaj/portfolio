@@ -26,9 +26,13 @@ class About extends React.Component{
                             </div>
                             <div className="about-text-container">
                                 <p className='about-text'>
-                                    Hi! My name is Paja and I'm a front-end developer based in Berlin. I first became interested in software engeneering at university where I was studying japanology and linguistics. 
-                                    Since them I have attented numerous courses and build my own projects. So far I mostly worked with mostly with ReactJS and Redux but I've also just launched my first Android application in React Native and I started diving more into the back-end with NodeJS. 
-
+                                    Hi! 
+                                </p>
+                                <p className='about-text'>
+                                    My name is Paja and I'm a front-end developer based in Berlin. I first became interested in software engeneering at university where I was studying japanology and linguistics. 
+                                </p>
+                                <p className='about-text'>
+                                       Since them I have attented numerous courses and build my own projects. So far I mostly worked with mostly with ReactJS and Redux but I've also just launched my first Android application in React Native and I started diving more into the back-end with NodeJS. 
                                 </p>
                             </div>
                     </div>

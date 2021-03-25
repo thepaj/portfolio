@@ -266,7 +266,7 @@ dark-green: #1A2D2B */
     justify-content: center;
     flex-wrap: wrap;
     margin-right: 30px;
-        padding:  0 20px;
+    padding:  0 20px;
 }
 
 .skill-container {
@@ -308,6 +308,11 @@ dark-green: #1A2D2B */
 .about-text {
     font-size: 18px;
     color: black;
+    margin-bottom: 15px;
+}
+
+.about-text:last-child {
+    margin-bottom: 0;
 }
 
 /* PROJECTS */
@@ -451,14 +456,15 @@ hr {
     }
     .skills-container {
         margin-right: 30px;
-        padding:  0 20px;
+        padding:  0 10px;
     }
     .about-content-container {
         justify-content: center;
         align-items: center;
-        height: 450px;
+        height: 480px;
         width: 700px;
-        margin-right: 35px;
+        margin-right: 20px;
+        margin-left: 10px;
     }
 
 }
@@ -469,10 +475,11 @@ hr {
         margin-left: 10px;
     }
     .about-content-container {
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 730px;
-        width: 300px;
+        height: 800px;
+        width: 350px;
         margin-right: 15px;
     }
     .skills-container {
@@ -517,6 +524,9 @@ hr {
         margin-top: 30px;
         justify-self: center;
     }
+    .about-container {
+        width: 300px;
+    }
     .about-title {
         font-size: 70px;
     }
@@ -524,7 +534,7 @@ hr {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 730px;
+        height: 780px;
         width: 300px;
         margin-right: 15px;
     }
