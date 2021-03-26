@@ -15,6 +15,10 @@ class About extends React.Component{
                         <Skill skill="React" />
                         <Skill skill="Redux" />
                         <Skill skill="React Native" />
+                        <Skill skill="Node.js" />
+                        <Skill skill="SQL" />
+                        <Skill skill="P5.js" />
+                        <Skill skill="Git" />
                         <Skill skill="HTML" />
                         <Skill skill="CSS" />
                         <Skill skill="Firebase" />
