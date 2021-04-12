@@ -36,7 +36,7 @@ class About extends React.Component{
                                     My name is Paja and I'm a front-end developer based in Berlin. I first became interested in software engeneering at university where I was studying japanology and linguistics. 
                                 </p>
                                 <p className='about-text'>
-                                       Since them I have attented numerous courses and build my own projects. So far I mostly worked with mostly with ReactJS and Redux but I've also just launched my first Android application in React Native and I started diving more into the back-end with NodeJS. 
+                                    Since then I have attented numerous courses and built my own projects. So far I mostly worked with ReactJS and Redux but I've also just launched my first Android application in React Native and I started diving more into the back-end with NodeJS. 
                                 </p>
                             </div>
                     </div>
