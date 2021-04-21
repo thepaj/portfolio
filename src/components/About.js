@@ -16,13 +16,12 @@ class About extends React.Component{
                         <Skill skill="Redux" />
                         <Skill skill="React Native" />
                         <Skill skill="Node.js" />
-                        <Skill skill="SQL" />
-                        <Skill skill="P5.js" />
+                        <Skill skill="TypeScript" />
+                        <Skill skill="Jest" />
                         <Skill skill="Git" />
-                        <Skill skill="HTML" />
+                        <Skill skill="Linux" />
                         <Skill skill="CSS" />
                         <Skill skill="Firebase" />
-                        <Skill skill="Git" />
                     </div>
                     <div className="about-content-container">
                         <div className='avatar-container'>
